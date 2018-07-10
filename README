@@ -1,0 +1,12 @@
+This is the buildsystem for the Lion 3rd Generation based on the OpenWrt Linux distribution.
+
+Please use "make menuconfig" to configure the toolchain and firmware.
+
+Requirements:
+gcc, binutils, bzip2, flex, python, perl, make,find, grep, diff, unzip, gawk, getopt, subversion, libz-dev and libc headers.
+
+Run "./scripts/feeds update -a" to get all the latest package definitions
+defined in feeds.conf / feeds.conf.default respectively
+and "./scripts/feeds install -a" to install symlinks of all of them into
+package/feeds/.
+
